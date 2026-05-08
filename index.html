@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>براندو لتطوير المواقع</title>
+    <!--Tailwind CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!--خط Cairo-->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;700;900&display=swap">
+</head>
+<body class="bg-black-100 dark:bg-white-100">
+    <!--شريط_header-->
+    <header class="py-5 text-white dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-2xl font-bold text-blue-500 dark:text-blue-400">براندو</a>
+                <nav class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white dark:hover:text-gray-100">الرئيسية</a>
+                    <a href="#" class="text-gray-400 hover:text-white dark:hover:text-gray-100">خدمات</a>
+                    <a href="#" class="text-gray-400 hover:text-white dark:hover:text-gray-100">اتصل بنا</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--Hero-->
+    <section class="bg-cover bg-top bg-center bg-no-repeat h-screen md:h-screen lg:h-screen" style="background-image:url('https://images.unsplash.com/photo-1481248481938-0f9f6e9d2f7b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&w=1080')";
+    >
+        <div class="container mx-auto px-4 py-16">
+            <div class="text-center text-5xl font-bold text-white dark:text-gray-100">براندو لتطوير المواقع</div>
+            <div class="text-center mt-4 text-gray-400">للمواقع الجيدة</div>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">تواصل معنا</button>
+        </div>
+    </section>
+    <!--خدمات-->
+    <section class="py-5">
+        <div class="container mx-auto px-4">
+            <div class="text-3xl font-bold text-gray-900 dark:text-white">خدماتنا</div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
+                    <img src="https://img.icons8.com/ios/40/000000/creative-commons.png" class="w-12 h-12 text-gray-200 dark:text-white mb-4">
+                    <div class="text-lg font-bold text-gray-900 dark:text-white mb-2">تطوير المواقع</div>
+                    <p class="text-gray-400 dark:text-gray-100">المواقع الجيدة للمواقع الجيدة.</p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
+                    <img src="https://img.icons8.com/ios/40/000000/html5.png" class="w-12 h-12 text-gray-200 dark:text-white mb-4">
+                    <div class="text-lg font-bold text-gray-900 dark:text-white mb-2">تطوير المحتوى</div>
+                    <p class="text-gray-400 dark:text-gray-100">المواقع الجيدة للمواقع الجيدة.</p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
+                    <img src="https://img.icons8.com/ios/40/000000/digital-marketing.png" class="w-12 h-12 text-gray-200 dark:text-white mb-4">
+                    <div class="text-lg font-bold text-gray-900 dark:text-white mb-2">تطوير التسويق</div>
+                    <p class="text-gray-400 dark:text-gray-100">المواقع الجيدة للمواقع الجيدة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--نموذج اتصال-->
+    <section class="py-5">
+        <div class="container mx-auto px-4">
+            <div class="text-3xl font-bold text-gray-900 dark:text-white">اتصل بنا</div>
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mt-4">
+                <form>
+                    <div class="mb-4">
+                        <input type="text" placeholder="إسمك" class="w-full p-2 text-gray-900 dark:text-white rounded-lg focus:outline-none focus:ring">
+                    </div>
+                    <div class="mb-4">
+                        <input type="email" placeholder="إيميلك" class="w-full p-2 text-gray-900 dark:text-white rounded-lg focus:outline-none focus:ring">
+                    </div>
+                    <div class="mb-4">
+                        <textarea placeholder="رسالتك" class="w-full h-20 p-2 text-gray-900 dark:text-white rounded-lg focus:outline-none focus:ring"></textarea>
+                    </div>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">ارسال</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--التذييل-->
+    <footer class="text-center text-gray-400 dark:text-gray-100 mt-8">
+        &copy;2023 براندو. صُنع بذكاء بواسطة براندو
+    </footer>
+</body>
+</html>
